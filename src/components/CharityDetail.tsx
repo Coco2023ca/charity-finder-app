@@ -41,7 +41,7 @@ import {CharityDetailType } from '../types/CharityDetailTypes';
   }
 
   return (
-    <div className="text-center">
+    <div className="pb-4 text-center bg-white">
       <img src={charity.coverImageUrl} alt="Charity Cover" className="w-full" />
       <h2 className="text-2xl font-bold mb-2">{charity.name}</h2>
       <p className="text-gray-700 mb-4">{charity.description}</p>
